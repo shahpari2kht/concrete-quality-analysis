@@ -1,6 +1,6 @@
 # 🧱 Concrete Quality Analysis / تحلیل کیفیت بتن
 
-**Concrete Quality Analysis** – A Streamlit-based machine learning dashboard for predicting concrete compressive strength (MPa) using compositional parameters such as water-cement ratio, aggregates, and admixtures.  
+**Concrete Quality Analysis**  A Streamlit based machine learning dashboard for predicting concrete compressive strength (MPa) using compositional parameters such as water-cement ratio, aggregates, and admixtures.  
 یک داشبورد یادگیری ماشین مبتنی بر Streamlit برای پیش‌بینی مقاومت فشاری بتن (MPa) با استفاده از پارامترهای ترکیبی مانند نسبت آب به سیمان، مصالح ریز و درشت و افزودنی‌ها.
 
 ---
@@ -82,24 +82,7 @@ streamlit run src/visualization.py
 Predict concrete compressive strength from material composition:
 پیش‌بینی مقاومت فشاری بتن با استفاده از ترکیب مواد:
 
-𝑓
-𝑐
-=
-𝑓
-(
-𝑊
-𝐶
-,
-aggregate%, admixture%, age
-)
-f
-c
-	​
-
-=f(
-C
-W
-	​
+fc​=f(CW​,aggregate%, admixture%, age)​
 
 ,aggregate%, admixture%, age)
 🧠 Key Learnings / نکات کلیدی
